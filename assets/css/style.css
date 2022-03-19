@@ -4,8 +4,36 @@
     box-sizing: border-box;
 }
 header{
+    padding: 10px 35px;
     display: flex;
     background-color: blue;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+header a {
+    text-decoration: none;
+}
+header nav {
+    margin: 5px;
+    flex-wrap: wrap;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li a {
+    font-size: 20px;
+    padding: 10px 15px;
 }
 main {
     display: flex;
