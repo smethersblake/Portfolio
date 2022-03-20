@@ -150,7 +150,7 @@ main {
     height:200px;
 }
 .contact-me {
-    background-color: brown;
+    /* background-color: brown; */
     margin: 5px;
     display: flex;
     justify-content: space-between;
@@ -159,7 +159,7 @@ main {
 }
 
 .contact {
-    background-color: white;
+    /* background-color: white; */
     margin: 5px;
     display: flex;
     flex: .25;
@@ -172,7 +172,7 @@ main {
     font-size: 35px;
 }
 .contact-section {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     display: flex;
     flex: 1;
 }.contact-section a {
