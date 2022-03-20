@@ -117,10 +117,10 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     flex: 1;
-    
 }
 /* first project css */
 .run-buddy {
+    /* background-color: black; */
     margin: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -133,6 +133,12 @@ main {
     height: 400px;
     width: 100%;
 }
+.run-buddy-overlay {
+    justify-content: center;
+    display: flex;
+    height: 32px;
+    width: 100%;
+}
 /* under construction css rules  */
 .to-come {
     display: flex;
@@ -141,9 +147,11 @@ main {
     justify-content: center;
 }
 .to-come img {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
     margin: 5px;
     display: flex;
-    width: 400px;
+    width: 350px;
     height:200px;
 }
 /* contact css */
