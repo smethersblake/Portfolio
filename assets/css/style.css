@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* header css rules */
 header{
-    padding: 10px 35px;
+    padding: 1px 50px;
     display: flex;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
@@ -35,14 +36,14 @@ header nav ul li a {
     font-size: 20px;
     padding: 10px 15px;
 }
+/* main page css rules */
 main {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: yellow; */
     justify-content: center;
-    /* height: 100%; */
-    /* width: 100%; */
+    background-color: aqua;
 }
+/* about/bio css */
 .about-section {
     margin: 5px;
     display: flex;
@@ -51,7 +52,6 @@ main {
     width: 100%;
 }
 .about {
-    /* background-color: gray; */
     margin: 5px;
     display: flex;
     flex: .25;
@@ -67,8 +67,7 @@ main {
     margin: 5px;
     display: flex;
     flex: 1;
-    justify-content: space-around;
-    /* background-color: red; */
+    justify-content: center;
 }
 .bio-img {
 
@@ -76,25 +75,23 @@ main {
     margin: 5px;
     display: flex;
     border-radius: 20px;
-    background-color: aquamarine;
     border: 5px solid rgb(0, 0, 0);
 }
 .bio-text {
-    /* background-color: blueviolet; */
     display: flex;
     margin: 5px;
     padding: 5px;
-    /* flex: 2; */
     flex-wrap: wrap;
     align-items: center;
-    /* justify-content: center; */
+    flex: .75;
+    justify-content: center;
 }
 .bio-text p {
     padding: 20px;
+    font-size: 20px;
 }
 .work-section {
     margin: 5px;
-    /* background-color: green; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -102,7 +99,6 @@ main {
     flex-direction: row;
 }
 .work {
-    /* background-color: pink; */
     margin: 5px;
     display: flex;
     flex: .25;
@@ -114,20 +110,22 @@ main {
     padding: 5px 20px;
     font-size: 35px;
 }
+/* project section css rules */
 .project-section {
     margin: 5px;
-    /* background-color: orange; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex: 1;
     
 }
+/* first project css */
 .run-buddy {
     margin: 5px;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+    justify-content: center;
 }
 .run-buddy img{
     border-radius: 20px;
@@ -135,6 +133,7 @@ main {
     height: 400px;
     width: 100%;
 }
+/* under construction css rules  */
 .to-come {
     display: flex;
     flex-wrap: wrap;
@@ -147,17 +146,15 @@ main {
     width: 400px;
     height:200px;
 }
+/* contact css */
 .contact-me {
-    /* background-color: brown; */
     margin: 5px;
     display: flex;
     justify-content: space-between;
     width: 100%;
     flex-direction: row;
 }
-
 .contact {
-    /* background-color: white; */
     margin: 5px;
     display: flex;
     flex: .25;
@@ -170,7 +167,6 @@ main {
     font-size: 35px;
 }
 .contact-section {
-    /* background-color: burlywood; */
     display: flex;
     flex-wrap: wrap;
     flex: 1;
@@ -180,6 +176,7 @@ main {
     padding-left: 20px;
     font-size: 20px;
 }
+/* media screen size rules for different size screens */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
