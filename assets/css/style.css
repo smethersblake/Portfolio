@@ -146,6 +146,7 @@ main {
 .to-come img {
     margin: 5px;
     display: flex;
+    width: 400px;
     height:200px;
 }
 .contact-me {
