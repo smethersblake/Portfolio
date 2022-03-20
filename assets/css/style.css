@@ -6,8 +6,8 @@
 header{
     padding: 10px 35px;
     display: flex;
-    /* background-color: blue; */
     justify-content: space-between;
+    background-color: rgb(255, 255, 255);
     flex-wrap: wrap;
     position: sticky;
     top: 0;
@@ -68,7 +68,7 @@ main {
     display: flex;
     flex: 1;
     justify-content: space-around;
-    background-color: red;
+    /* background-color: red; */
 }
 .bio-img {
 
@@ -80,7 +80,7 @@ main {
     border: 5px solid rgb(0, 0, 0);
 }
 .bio-text {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     margin: 5px;
     padding: 5px;
