@@ -6,7 +6,7 @@
 header{
     padding: 10px 35px;
     display: flex;
-    background-color: blue;
+    /* background-color: blue; */
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
@@ -38,7 +38,7 @@ header nav ul li a {
 main {
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    /* background-color: yellow; */
     justify-content: center;
     /* height: 100%; */
     /* width: 100%; */
@@ -54,7 +54,7 @@ main {
 
 }
 .about {
-    background-color: gray;
+    /* background-color: gray; */
     margin: 5px;
     display: flex;
     flex: .25;
@@ -71,7 +71,7 @@ main {
     display: flex;
     flex: 1;
     justify-content: space-around;
-    background-color: red;
+    /* background-color: red; */
 }
 .bio-img {
 
@@ -83,7 +83,7 @@ main {
     border: 5px solid rgb(0, 0, 0);
 }
 .bio-text {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     margin: 5px;
     padding: 5px;
@@ -96,7 +96,7 @@ main {
 }
 .work-section {
     margin: 5px;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -104,7 +104,7 @@ main {
     flex-direction: row;
 }
 .work {
-    background-color: pink;
+    /* background-color: pink; */
     margin: 5px;
     display: flex;
     flex: .25;
@@ -118,7 +118,7 @@ main {
 }
 .project-section {
     margin: 5px;
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
