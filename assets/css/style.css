@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 10px 35px;
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+header a {
+    text-decoration: none;
+}
+header nav {
+    margin: 5px;
+    flex-wrap: wrap;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li a {
+    font-size: 20px;
+    padding: 10px 15px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+    justify-content: center;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+.about-section {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.about {
+    /* background-color: gray; */
+    margin: 5px;
+    display: flex;
+    flex: .25;
+    border-right: 7px solid rgb(0, 0, 0);
+    justify-content: flex-end;
+}
+.about h2 {
+    display: flex;
+    padding: 5px 20px;
+    font-size: 35px;
+}
+.bio-section {
+    margin: 5px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    background-color: red;
+}
+.bio-img {
+
+    height: 400px; 
+    margin: 5px;
+    display: flex;
+    border-radius: 20px;
+    background-color: aquamarine;
+    border: 5px solid rgb(0, 0, 0);
+}
+.bio-text {
+    background-color: blueviolet;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    /* flex: 2; */
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+}
+.bio-text p {
+    padding: 20px;
+}
+.work-section {
+    margin: 5px;
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+}
+.work {
+    /* background-color: pink; */
+    margin: 5px;
+    display: flex;
+    flex: .25;
+    border-right: 7px solid rgb(0, 0, 0);
+    justify-content: flex-end;
+}
+.work h2 {
+    display: flex;
+    padding: 5px 20px;
+    font-size: 35px;
+}
+.project-section {
+    margin: 5px;
+    /* background-color: orange; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1;
+    
+}
+.run-buddy {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.run-buddy img{
+    border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    height: 400px;
+    width: 100%;
+}
+.to-come {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: center;
+}
+.to-come img {
+    margin: 5px;
+    display: flex;
+    width: 400px;
+    height:200px;
+}
+.contact-me {
+    /* background-color: brown; */
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+}
+
+.contact {
+    /* background-color: white; */
+    margin: 5px;
+    display: flex;
+    flex: .25;
+    border-right: 7px solid rgb(0, 0, 0);
+    justify-content: flex-end;
+}
+.contact h2 {
+    display: flex;
+    padding: 5px 20px;
+    font-size: 35px;
+}
+.contact-section {
+    /* background-color: burlywood; */
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}.contact-section a {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
+}
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    .to-come {
+        flex: 0 70%;
+    }
+    .contact-section {
+        justify-content: center;
+    }
+    .about h2, .work h2, .contact h2 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about-section, .work-section, .contact-me {
+        flex-direction: column;
+    }
+    .about, .work, .contact {
+        border-right: none;
+        border-bottom: 7px solid rgb(0, 0, 0);
+        justify-content: center;
+    }
+    .run-buddy img{
+        height: 200px;
+    }
+    .to-come img {
+        height: 100px;
+        width: 225px;
+    }
+    .contact-section{
+        padding: 15px;
+    }
+    .contact-section a {
+        font-size: 25px;
+    }
+    @media screen and (max-width: 575px) {
+        .bio-section {
+            flex-direction: column;
+        }
+        .bio-img img {
+            width: 100%;
+            height: 100%;
+        }
+    }
