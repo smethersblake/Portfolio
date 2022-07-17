@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="UTF-8">
         <!-- changed icon to head shot -->
         <link rel="icon" href="./assets/images/Head_Shot.jpg">
@@ -30,65 +32,71 @@
         <!-- main section -->
         <main>
             <!-- about me section -->
-            <section class="about-section" id="about-me">
-                <div class="about">
-                    <h2>
-                        About Me
-                    </h2>
-                </div>
-                <!-- boi section -->
-                <section class="bio-section">
-                    <div class="bio-img">
-                        <img src="./assets/images/Head_Shot.jpg" alt="">
+            <div class="container-fluid">
+                <section class="row align-items-center about-section" id="about-me">
+                    <div class="col-2" >
+                        <h2>About Me</h2>
                     </div>
-                    <!-- about me text -->
-                    <div class="bio-text">
-                        <p>Hello my name is Blake Smethers.</p>
-                    </div>
+                    <section class="col-10">
+                        <div class="row justify-content-center">
+                            <div class="about">
+                                <h2>This is the about section of the page</h2>
+                            </div>
+                            <!-- boi section -->
+                            <section class="bio-section">
+                                <div class="bio-img">
+                                </div>
+                                <div class="bio-text">
+                                    <p>Hello my name is Blake Smethers. This is the bio section of page</p>
+                                </div>
+                            </section>
+                            </div>
+                        </section>
+                    </section>
                 </section>
-            </section>
-            <!-- previous work section -->
-            <section class="work-section" id="projects">
-                <div class="work">
-                    <h2>
-                        Work
-                    </h2>
-                </div>
-                <!-- previous work elements -->
-                <section class="project-section">
-                    <div class="run-buddy">
-                        <h3 class="run-buddy-overlay">Run Buddy</h3>
-                        <a href="https://smethersblake.github.io/run-buddy/" target="_blank">
-                            <img src="./assets/images/Run_Buddy.png" alt="">
-                        </a>
+                
+                <section class="row align-items-center work-section" id="projects">
+                    <div class="col-2">
+                        <h2>Work</h2>
                     </div>
-                    <!-- more work to come -->
-                    <div class="to-come">
-                        <a href="https://rehpotsirhc21.github.io/recipe-finder/" target="_blank">
-                            <!-- link to under cunstruction page (just until more projects are added) -->
-                            <img src="./assets/images/screencapture-127-0-0-1-5500-index-html-2022-04-19-14_41_00.png" alt="">
-                        </a>
-                    </div>
-                    <div class="to-come">
-                        <!-- link to under cunstruction page (just until more projects are added) -->
-                        <a href="https://intense-everglades-57738.herokuapp.com/" target="_blank">
-                            <img src="./assets/images/legoTwitter.jpg" alt="">
-                        </a>
-                    </div>
+                    <section class="col-10">
+                        <div class="row justify-content-center">
+                            <div class="align-items-center work">
+                                <h2>this is the work I have done</h2>
+                            </div>
+                            <section class="col-12 project-section">
+                                <div class="row justify-content-center">
+                                    <div class="col">
+                                        <h5>project 1</h5>
+                                    </div>
+                                    <div class="run-buddy col">
+                                        <h5>project 2</h5>
+                                    </div>
+                                    <div class="to-come col">
+                                        <h5>project 3</h5>
+                                    </div>
+                                    <div class="to-come col">
+                                        <h5>project 4</h5>
+                                    </div>    
+                                </div>
+                            </section>
+                        </div>
+                    </section>
                 </section>
-            </section>
-            <!-- contact me section -->
-            <section class="contact-me">
-                <div class="contact">
-                    <h2>
-                        Contact Me
-                    </h2>
-                </div>
-                <!-- link to contact me by email (more types of contacts to come)-->
-                <section class="contact-section" id="contact-me">
-                    <a href="mailto:smethersblake@gmail.com">Email Me</a>
+                <!-- contact me section -->
+                <section class="col-10">
+                    <div class="contact">
+                        <!-- 690080972 comfirmation code for att prepaid -->
+                        <h2>
+                            Contact Me
+                        </h2>
+                    </div>
+                    <!-- link to contact me by email (more types of contacts to come)-->
+                    <section class="contact-section" id="contact-me">
+                        <a href="mailto:smethersblake@gmail.com">Email Me</a>
+                    </section>
                 </section>
-            </section>
+            </div>
         </main>
         <footer>
             
